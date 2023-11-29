@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 165px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.71;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #505f98;
+}
+
+.logo {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.46;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #37447e;
+  padding-left: 271px;
+  padding-right: 355px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.header-button {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #ffd166;
+  text-transform: capitalize;
+  padding: 4px 40px;
+  border: none;
+  border-radius: 2px;
+}
+
+.button-span {
+  text-transform: uppercase;
+}
+
+.main-container {
+  display: flex;
+  padding-top: 185px;
+  padding-left: 165px;
+}
+
+.text-container {
+  padding: 58px 92px 0 0;
+}
+
+.main-header {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #091133;
+}
+
+.main-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #505f98;
+  margin-bottom: 69px;
+}
+
+.button-purchase {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+
+  color: #ffffff;
+  background-color: #111b47;
+  text-transform: capitalize;
+  padding: 5px 44px;
+  border: solid 2px #111b47;
+  border-radius: 2px;
+  margin-right: 30px;
+}
+
+.button-learn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+
+  color: #091133;
+  text-transform: capitalize;
+  padding: 5px 57px;
+  border: solid 2px #091133;
+  border-radius: 2px;
+}
