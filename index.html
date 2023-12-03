@@ -3,48 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework</title>
   </head>
   <body>
-    <header class="header-container">
-      <nav class="nav-box">
-        <ul class="nav-list">
-          <li>
-            <a href="/" class="nav-link">home</a>
-          </li>
-          <li>
-            <a href="/" class="nav-link">about</a>
-          </li>
-          <li>
-            <a href="/" class="nav-link">contact</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="/" class="logo">landie</a>
-      <button class="header-button button">
-        purchase <sppan class="button-span">ui</sppan> kit
-      </button>
-    </header>
-    <main class="main-container">
-      <div class="text-container">
-        <h2 class="main-header">
-          introduce your poroduct quickly & effectively
-        </h2>
-        <p class="main-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          dignissimos! Autem, architecto sapiente! Distinctio at, laboriosam
-          libero eaque tenetur ipsam labore sit earum aut temporibus saepe
-          sapiente. Nulla, tenetur vel.
-        </p>
-        <div class="buttons-container">
-          <button class="button-purchase button">
-            purchase <sppan class="button-span">ui</sppan> kit
-          </button>
-          <button class="button-learn button">learn more</button>
+    <header>
+      <div class="container">
+        <div class="header">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a href="/" class="nav-link">home</a>
+              </li>
+              <li>
+                <a href="/" class="nav-link">about</a>
+              </li>
+              <li>
+                <a href="/" class="nav-link">contact</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="/" class="logo">landie</a>
+          <button class="header-btn btn btn__small">purchase UI kit</button>
         </div>
       </div>
-      <img src="./img/group.png" width="646px" height="780px" />
+    </header>
+    <main>
+      <div class="container">
+        <div class="introduce-section">
+          <div class="text-content">
+            <h1 class="introduce-heading">
+              introduce your product quickly & effectively
+            </h1>
+            <p class="introduce-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              dignissimos! Autem, architecto sapiente! Distinctio at, laboriosam
+              libero eaque tenetur ipsam labore sit earum aut temporibus saepe
+              sapiente. Nulla, tenetur vel.
+            </p>
+            <div class="introduce-btn">
+              <button class="btn-purchase btn btn__big btn__contained">
+                purchase UI kit
+              </button>
+              <button class="btn-learn btn btn__big btn__outlined">
+                learn more
+              </button>
+            </div>
+          </div>
+          <img
+            src="./img/group.png"
+            width="646px"
+            height="780px"
+            class="introduce-img"
+          />
+        </div>
+        <div class="second-section">
+          <div class="text-content">
+            <h2 class="second-heading">light, fast & powerful</h2>
+            <p class="second-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              dignissimos! Autem, architecto sapiente! Distinctio at, laboriosam
+              libero eaque tenetur ipsam labore sit earum aut temporibus saepe
+              sapiente. Nulla, tenetur vel.
+            </p>
+            <div class="subcontent">
+              <div class="left-part">
+                <img src="./img/left.png" width="255px" height="36px" />
+                <h3>title goes here</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+              <div class="right-part">
+                <img src="./img/left.png" width="255px" height="36px" />
+                <h3>title goes here</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./img/undraw-mobile-login-ikmv.png"
+            width="540px"
+            height="525px"
+            class="second-img"
+          />
+        </div>
+        <div class="third-section">
+          <img
+            src="./img//undraw-happy-news-hxmt.png"
+            width="555px"
+            height="394px"
+            class="third-img"
+          />
+          <div class="thirdText-content">
+            <h2 class="third-heading">light, fast & powerful</h2>
+            <p class="third-subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

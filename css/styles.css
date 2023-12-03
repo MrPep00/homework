@@ -3,11 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header-container {
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: Roboto, sans-serif;
+  align-items: center;
+  border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn__small {
+  height: 26px;
+  font-size: 12px;
+}
+
+.btn__medium {
+  height: 32px;
+}
+
+.btn__big {
+  height: 32px;
+  font-size: 16px;
+}
+
+.btn__contained {
+  background: #111b47;
+  border: solid 2px #111b47;
+  color: #ffffff;
+  width: 189px;
+}
+
+.btn__outlined {
+  color: #091133;
+  background: transparent;
+  border: solid 2px #091133;
+  width: 189px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 165px;
+  position: relative;
+  margin-bottom: 243px;
 }
 
 .nav-list {
@@ -17,9 +68,7 @@
 }
 
 .nav-link {
-  font-family: Roboto;
   font-size: 14px;
-  font-weight: normal;
   line-height: 1.71;
   text-transform: capitalize;
   text-decoration: none;
@@ -27,49 +76,36 @@
 }
 
 .logo {
-  font-family: Roboto;
   font-size: 26px;
   font-weight: 900;
   line-height: 1.46;
   text-transform: capitalize;
-  text-decoration: none;
   color: #37447e;
-  padding-left: 271px;
-  padding-right: 355px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
-.button:hover {
-  cursor: pointer;
-}
-
-.header-button {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 500;
+.header-btn {
   line-height: 1.5;
-  background-color: #ffd166;
-  text-transform: capitalize;
-  padding: 4px 40px;
+
+  background: #ffd166;
   border: none;
-  border-radius: 2px;
+  width: 160px;
 }
 
-.button-span {
-  text-transform: uppercase;
-}
-
-.main-container {
+.introduce-section {
+  position: relative;
   display: flex;
-  padding-top: 185px;
-  padding-left: 165px;
+  height: 723px;
+  margin-bottom: 245px;
 }
 
-.text-container {
-  padding: 58px 92px 0 0;
+.text-content {
+  width: 540px;
 }
 
-.main-header {
-  font-family: Roboto;
+.introduce-heading {
   font-size: 50px;
   font-weight: 500;
   line-height: 1.32;
@@ -78,39 +114,108 @@
   color: #091133;
 }
 
-.main-text {
-  font-family: Roboto;
+.introduce-subtitle {
   font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
   color: #505f98;
   margin-bottom: 69px;
 }
 
-.button-purchase {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
+.introduce-btn {
+  display: flex;
+}
 
-  color: #ffffff;
-  background-color: #111b47;
-  text-transform: capitalize;
-  padding: 5px 44px;
-  border: solid 2px #111b47;
-  border-radius: 2px;
+.btn-purchase {
+  line-height: 1.63;
   margin-right: 30px;
 }
 
-.button-learn {
-  font-family: Roboto;
+.btn-learn {
+  line-height: 1.63;
+}
+
+.introduce-img {
+  position: absolute;
+  right: 0;
+  top: -58px;
+}
+
+.second-section {
+  display: flex;
+  position: relative;
+  margin-bottom: 332px;
+}
+
+.second-heading {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  color: #091133;
+}
+
+.second-subtitle {
+  font-size: 16px;
+  color: #6f7cb2;
+  margin-bottom: 80px;
+}
+
+.second-img {
+  position: absolute;
+  right: 165px;
+  top: -51px;
+}
+
+.subcontent {
+  display: flex;
+  gap: 30px;
+}
+.left-part,
+.right-part {
+  width: 255px;
+}
+
+.subcontent img {
+  margin-bottom: 14px;
+}
+
+.subcontent h3 {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.63;
 
   color: #091133;
   text-transform: capitalize;
-  padding: 5px 57px;
-  border: solid 2px #091133;
-  border-radius: 2px;
+  margin-bottom: 6px;
+}
+
+.subcontent p {
+  font-size: 12px;
+  color: #5d6970;
+}
+
+.third-section {
+  display: flex;
+  position: relative;
+}
+
+.thirdText-content {
+  width: 445px;
+  transform: translateX(190%);
+}
+
+.third-heading {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  color: #091133;
+}
+
+.third-subtitle {
+  font-size: 16px;
+  color: #6f7cb2;
+}
+
+.third-img {
+  position: absolute;
+  top: -127px;
 }
