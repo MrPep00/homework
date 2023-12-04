@@ -149,6 +149,12 @@ a {
 .introduce-section {
   height: 723px;
   margin-bottom: 245px;
+
+  background-image: url(../img/group.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+  background-blend-mode: overlay;
 }
 
 .introduce-heading {
