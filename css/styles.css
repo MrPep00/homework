@@ -28,8 +28,6 @@ a {
 .btn__small {
   height: 26px;
   font-size: 12px;
-  background: #ffd166;
-  border: none;
 }
 
 .btn__medium {
@@ -43,9 +41,7 @@ a {
 }
 
 .btn__contained {
-  background: #111b47;
   border: solid 2px #111b47;
-  color: #ffffff;
   width: 189px;
 }
 
@@ -54,6 +50,17 @@ a {
   background: transparent;
   border: solid 2px #091133;
   width: 189px;
+}
+
+.btn__yellow {
+  background: #ffd166;
+  border: solid 2px #ffd166;
+  color: #091133;
+}
+
+.btn__blue {
+  background: #111b47;
+  color: #ffffff;
 }
 
 .section {
